@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kashish | Frontend Developer</title>
+  <meta name="description" content="Kashish — Frontend Developer portfolio in a sleek Netflix-style UI with projects, skills, resume, and contact."/>
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- ====== NAVBAR ====== -->
+  <nav class="nav" aria-label="Primary">
+    <div class="nav-inner">
+      <a class="brand" href="#home" aria-label="Go to Home">
+        <span>KASHISH</span>
+      </a>
+      <button class="menu-btn" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i><span>Theme</span></button>
+    </div>
+  </nav>
+
+  <!-- ====== HERO / HOME ====== -->
+  <header id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-copy fade-in">
+        <div class="eyebrow">Hi, I’m</div>
+        <h1>Kashish — Frontend Developer</h1>
+        <p>I design clean, user-friendly and modern web experiences with performance and accessibility in mind.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="#projects"><i class="fa-solid fa-play"></i> View My Work</a>
+        </div>
+      </div>
+
+      <aside class="hero-card fade-in" aria-label="Profile quick card">
+        <img src="img.png" alt="Kashish portrait"/>
+        <div>
+          <h3>Kashish Surana</h3>
+          <p>Frontend Developer</p>
+          <div class="socials" aria-label="Social links">
+            <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:kashishsurana16@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <!-- ====== ABOUT ====== -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-sub">Who I am, what I do, and why I love it.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card fade-in">
+          <h3>👋 Hey! I’m Kashish</h3>
+          <p>
+            I’m a frontend developer (B.E. AI&DS) passionate about building clean, responsive, and interactive web experiences. 
+            I enjoy combining design thinking with modern tech to bring ideas to life through React, JavaScript, and sleek animations.
+          </p>
+          <div class="facts">
+            <span class="chip"><i class="fa-regular fa-lightbulb"></i> Creative Problem-Solver</span>
+            <span class="chip"><i class="fa-solid fa-graduation-cap"></i> T.E. Student</span>
+            <span class="chip"><i class="fa-solid fa-location-dot"></i> Pune, India</span>
+            <span class="chip"><i class="fa-solid fa-gamepad"></i> Hobbies: Design, Music, Dance</span>
+          </div>
+        </div>
+        <div class="card fade-in">
+          <h3>Education</h3>
+          <p><strong>B.E. — AI & Data Science</strong><br/>DY Patil College of Engineering, Akurdi — 2019 Pattern</p>
+          <p><strong>Interests</strong><br/>Frontend developing, interaction design, data visualization, and building practical student-friendly tools.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS ====== -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Skills & Tools</h2>
+        <p class="section-sub">Tech I use daily, professional strengths I bring, and tools I love.</p>
+      </div>
+  
+      <!-- Technical Skills -->
+      <div class="grid grid-4 skills-block">
+        <div class="skill fade-in">
+          <h4>HTML5</h4>
+          <div class="bar" aria-label="HTML proficiency"><span style="--w:95%"></span></div>
+        </div>
+        <div class="skill fade-in">
+          <h4>CSS3 / Tailwind</h4>
+          <div class="bar"><span style="--w:92%"></span></div>
+        </div>
+        <div class="skill fade-in">
+          <h4>JavaScript (ES6+)</h4>
+          <div class="bar"><span style="--w:88%"></span></div>
+        </div>
+        <div class="skill fade-in">
+          <h4>Python</h4>
+          <div class="bar"><span style="--w:70%"></span></div>
+        </div>
+      </div>
+  
+      <!-- Professional Skills -->
+      <div class="grid grid-4 skills-block">
+        <div class="skill fade-in">
+          <h4>Teamwork</h4>
+          <div class="bar"><span style="--w:90%"></span></div>
+        </div>
+        <div class="skill fade-in">
+          <h4>Problem-Solving</h4>
+          <div class="bar"><span style="--w:85%"></span></div>
+        </div>
+        <div class="skill fade-in">
+          <h4>Communication</h4>
+          <div class="bar"><span style="--w:88%"></span></div>
+        </div>
+        <div class="skill fade-in">
+          <h4>Adaptability</h4>
+          <div class="bar"><span style="--w:92%"></span></div>
+        </div>
+      </div>
+  
+      <!-- Tools -->
+      <div class="toolset fade-in skills-block">
+        <span class="chip"><i class="fa-brands fa-git-alt"></i> Git</span>
+        <span class="chip"><i class="fa-solid fa-code"></i> VS Code</span>
+        <span class="chip"><i class="fa-brands fa-figma"></i> Figma</span>
+        <span class="chip"><i class="fa-solid fa-wand-magic-sparkles"></i> Canva</span>
+      </div>
+    </div>
+  </section>
+  <!-- ====== PROJECTS ====== -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-sub">Quality over quantity — a few favorites.</p>
+      </div>
+      <div class="grid">
+        <!-- Project 1 -->
+        <article class="project fade-in">
+          <img src="https://images.unsplash.com/photo-1511376777868-611b54f68947?q=80&w=800&auto=format&fit=crop" alt="Mood-based recommender preview" />
+          <div>
+            <h4> Mood-based Music & Movie Recommender</h4>
+            <p>A mood-based recommender system that suggests music or movies depending on your emotions, built using frontend technologies.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+            <div class="links">
+              <a class="btn btn-ghost" href="https://github.com/Kashish-Surana/Mood-Based-Music-Movie-Recommender" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Project 2 -->
+        <article class="project fade-in">
+          <img src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?q=80&w=800&auto=format&fit=crop" alt="Netflix clone preview" />
+          <div>
+            <h4>Netflix Clone</h4>
+            <p>A frontend clone of Netflix with responsive UI and content sections, mimicking the look and feel of the platform.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span>
+            </div>
+            <div class="links">
+              <a class="btn btn-ghost" href="https://github.com/Kashish-Surana/Netflix-Clone" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </article>
+  
+        <!-- Project 3 -->
+        <article class="project fade-in">
+          <img src="https://images.unsplash.com/photo-1522199710521-72d69614c702?q=80&w=800&auto=format&fit=crop" alt="Amazon clone preview" />
+          <div>
+            <h4>Amazon Clone</h4>
+            <p>An Amazon-style e-commerce frontend with product listings, navigation, and cart features built using JS for interactivity.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+            <div class="links">
+              <a class="btn btn-ghost" href="https://github.com/Kashish-Surana/Amazon-Clone" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- ====== RESUME ====== -->
+  <section id="resume" class="resume">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Resume / CV</h2>
+        <p class="section-sub">Download </p>
+      </div>
+      <div class="card fade-in">
+        <div class="cta" style="margin-top:0">
+          <a class="btn btn-primary" href="resume.pdf" download><i class="fa-solid fa-download"></i> Download PDF</a>
+        </div>
+      </div>
+    </div>
+</section>
+
+  <!-- ====== CONTACT ====== -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-sub">Let’s build something awesome.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="card fade-in">
+          <form id="contactForm" novalidate>
+            <input class="input" type="text" id="name" placeholder="Your Name" required aria-label="Your Name"/>
+            <input class="input" type="email" id="email" placeholder="Email" required aria-label="Email"/>
+            <textarea class="input" id="message" placeholder="Message" rows="5" required aria-label="Message"></textarea>
+            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-paper-plane"></i> Send Message</button>
+            <p id="formStatus" class="muted" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="card fade-in">
+          <h3>Find me online</h3>
+          <div class="socials">
+            <a href="https://github.com/Kashish-Surana" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            <a href="mailto:you@example.com"><i class="fa-solid fa-envelope"></i> Email</a>
+          </div>
+          <p class="muted"> <strong>kashishsurana16@gmail.com</strong></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Kashish — Built with ❤️ and lots of CSS.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
